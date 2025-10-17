@@ -1,5 +1,5 @@
 // Contract address on Sepolia. Update this after deployment.
-export const CONTRACT_ADDRESS = '0x0000000000000000000000000000000000000000' as `0x${string}`;
+export const CONTRACT_ADDRESS = '0x5531BD8f27E5226e2e43BF48E8e9F35902081A77' as `0x${string}`;
 
 export const CONTRACT_ABI = [
   {

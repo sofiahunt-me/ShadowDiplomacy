@@ -2,9 +2,9 @@
 pragma solidity ^0.8.24;
 
 import {FHE, euint8, externalEuint8} from "@fhevm/solidity/lib/FHE.sol";
-import {SepoliaConfig} from "@fhevm/solidity/config/ZamaConfig.sol";
+import {ZamaEthereumConfig} from "@fhevm/solidity/config/ZamaConfig.sol";
 
-contract ShadowDiplomacy is SepoliaConfig {
+contract ShadowDiplomacy is ZamaEthereumConfig {
     enum ActionType {
         Unknown,
         Alliance,
